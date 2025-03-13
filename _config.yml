@@ -1,9 +1,9 @@
-title: Nighthawk Pages 
-description: "Class of 2025"
-owner_name: John Mortensen
-github_username: nighthawkcoders
-github_repo: "portfolio_2025" 
-baseurl: "/portfolio_2025"
+title: SONIDHENUVABLOG 
+description: "Class of 2027"
+owner_name: Soni Dhenuva
+github_username: sonidhenuva
+github_repo: "SONIDHENUVABLOG" 
+baseurl: "/SONIDHENUVABLOG"
 future: true
 remote_theme: jekyll/minima
 minima:
