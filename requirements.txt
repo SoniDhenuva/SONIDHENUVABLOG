@@ -6,5 +6,6 @@ requests
 python-dotenv
 pandas
 seaborn
+numpy
 scikit-learn
 progress
