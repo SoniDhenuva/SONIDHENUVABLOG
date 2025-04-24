@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Budget Tracker</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+      padding: 2rem;
+      max-width: 600px;
+      margin: auto;
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    .section {
+      margin-bottom: 1.5rem;
+    }
+    label {
+      font-weight: bold;
+    }
+    input, select, button {
+      padding: 0.5rem;
+      margin: 0.5rem 0;
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-sizing: border-box;
+    }
+    button {
+      background-color: #3498db;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #2980b9;
+    }
+    .warning {
+      color: red;
+      font-weight: bold;
+    }
+    .summary {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>💸 Budget Tracker</h1>
+
+  <div class="section">
+    <label for="budgetLimit">Monthly Budget Limit ($):</label>
+    <input type="number" id="budgetLimit" placeholder="e.g. 500">
+  </div>
+
+  <div class="section">
+    <label for="type">Add:</label>
+    <select id="type">
+      <option value="income">Income</option>
+      <option value="expense">Expense</option>
+    </select>
+
+    <input type="number" id="amount" placeholder="Amount in $">
+    <button onclick="addTransaction()">Add Transaction</button>
+  </div>
+
+  <div class="summary">
+    <h3>Summary</h3>
+    <p>Total Income: $<span id="totalIncome">0</span></p>
+    <p>Total Expenses: $<span id="totalExpenses">0</span></p>
+    <p>Remaining Balance: $<span id="balance">0</span></p>
+    <p class="warning" id="warning"></p>
+  </div>
+
+  <script>
+    const incomeList = [];
+    const expenseList = [];
+
+    function addTransaction() {
+      const type = document.getElementById('type').value;
+      const amount = parseFloat(document.getElementById('amount').value);
+      const budgetLimit = parseFloat(document.getElementById('budgetLimit').value);
+
+      if (isNaN(amount) || isNaN(budgetLimit)) {
+        alert("Please enter valid numbers for amount and budget.");
+        return;
+      }
+
+      if (type === 'income') {
+        incomeList.push(amount);
+      } else {
+        expenseList.push(amount);
+      }
+
+      updateSummary(budgetLimit);
+      document.getElementById('amount').value = '';
+    }
+
+    function updateSummary(budgetLimit) {
+      const totalIncome = incomeList.reduce((a, b) => a + b, 0);
+      const totalExpenses = expenseList.reduce((a, b) => a + b, 0);
+      const balance = totalIncome - totalExpenses;
+
+      document.getElementById('totalIncome').innerText = totalIncome.toFixed(2);
+      document.getElementById('totalExpenses').innerText = totalExpenses.toFixed(2);
+      document.getElementById('balance').innerText = balance.toFixed(2);
+
+      const warningEl = document.getElementById('warning');
+      if (totalExpenses > budgetLimit) {
+        warningEl.innerText = "⚠️ You have exceeded your budget!";
+      } else {
+        warningEl.innerText = "";
+      }
+    }
+  </script>
+
+</body>
+</html>
