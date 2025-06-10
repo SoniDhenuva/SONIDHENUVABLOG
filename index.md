@@ -246,16 +246,4 @@ menu: nav/home.html
 <p>Hi, My name is Sonika Dhenuva Konda, I go by Soni. I am in 10th grade and 15 years old.</p>
 <p>I joined a few clubs at school like Robotics & Debate. I also own my own small buisness of selling jewlry</p>
 
-## My Favorites
-<p>My favorite food is icecream, i also love any type of chocolate</p>
-<p>I also have several favorite movie such as all Ironman, Deadpool, Spiderman, Sherlock Homes, Transformers, Rush Hour, Jurrasic World, etc</p>
-<img src="{{site.baseurl}}/images/jurassic.png">
-<img src="{{site.baseurl}}/images/deadpool.png">
-<img src="{{site.baseurl}}/images/spiderman.png">
-
-
-## My Family
-<p>Fun Fact! I was actually born in india. I moved here when I was 9 months old. My dad and mom are both from India, and I have a younger sister who is 9 years old.</p>
-<p> A huge part of my family, including grandparents, aunts, uncles, and cousin are in Indian and I love to go and visit then once in a few years!</p>
-<img src="{{site.baseurl}}/images/india.png">
-<img src="{{site.baseurl}}/images/food.png">
+<iframe src="https://sonikadhenuva.carrd.co/" width="100%" height="600px" style="border:none;"></iframe>
