@@ -1,41 +1,73 @@
 ---
 layout: post
-title: Sprint 1 - Objectives
+title: Beginning of Sprint 1
 description: Tools and Software Development for Sprint 1
 type: issues
-courses: {'csse': {'week': 0}, 'csp': {'week': 0}, 'csa': {'week': 0}}
+courses: {'csa': {'week': 1}}
 comments: True
 ---
 
-## [Issue](https://github.com/nighthawkcoders/portfolio_2025/issues/14) 
 
-## Project-base Learning Requirements
-Each sprint there will be hacks and project-based learning requirements.  It is up to the individual to develop their own plan for how they will represent work.  Here are some links and tips.
+## Helping CSSE Students with Development Setup
+<br>
 
-- All work, tangible artifacts, will be captured in personal GitHub Pages
-- Tools and Software Development requirements are foundational requirements for all the CompSci courses.  Thus, they are identical, but listed independently under [CSSE Projects](https://github.com/orgs/nighthawkcoders/projects/15), [CSP Projects](https://github.com/orgs/nighthawkcoders/projects/17), [CSA Projects](https://github.com/orgs/nighthawkcoders/projects/16).
-- To obtain clarity on instructions you should start by picking a post in Sprint 1, then ask questions.  
-- In Agile Development methodology, which we will learn throughout the course, an iteration (plans, designs, review references, coding) and questions should all be considered as part of your work.
-- Since iteraction and questions are part of your work, you should consider capturing and outlining questions and interations in the blog you create.
-- Be aware, you will get more "Points" if you have "Indicators and ANalytics" that you are progressing on a CompSci journey.  
-- There are very few "Correct Answers" in this class! As you code, you will see that there is always more bugs, features, questions, and iterationcs.  
-- If you write a plan through a GitHub Issues, Commit Code in GitHub, update your plans, update your code...  Analytics will show you are working.
+- Used my 2 years of CS experience at Del Norte to help CSSE students set up their development environments.  
+- Helped Adya, a CSSE student, connect to WSL, install requirements, and set up a virtual environment.  
+- Gained experience in mentoring and supporting peers while reinforcing my own technical knowledge.  
 
+<br>
+<br>
+<br>
+<br>
 
-## Classroom Guidelines
-**It will be a very bad day when you say... "I have everything done".**  This statement typically comes by students that  are lacking understading and do not explore.
+## Connect Four game
 
-This statement shows that the person making the statement knows very little about CompSci and the principles of iteration that are being promoted in this class.  In fact, this statement does not agree with Agile Development Methodologies that we will be learning in this class.
+- Our team decided to create a connect four game for our lesson to teach the CSSE kids
+- We have a few a challenges for the CSSE student to try out, for example we have a challenegs where they have to try to turn the background of the screen red or yellow depending on whose turn it is. The second challeneg is to have a plpace where you can input team names instead of team "red" and team "yellow". The final challenge is to create a local storge leader board. 
 
-The Teacher likes behaviors that are easily viewed and interpreted as productive to CompSci learning.  
+## Evaluation Metrics
 
-- Code, Code, Code.  This is the process of making code and involves making plans, designs, reviewing references, asking questions and Code-Code-Coding. 
-- No paper. We will be learning to do all work electronically. 
-- Work Talk. A very high percentate 75%, 80% or more of your talk during class should be code, code, code talk.
-- Ears that can listen.  100% of time you should be available for discussion.  Covered or plugged in ears restricts hearing.
-- Hands that can code. The primary coding device is assumed to be your laptop!  Sprint 1 will be focused on laptop importance.
+| Skill                         | Mastered (Y/N) | Self Rank (1-5) | Peer Rank (1-5) | Teacher Rank (1-5) | Average | Notes/Evidence |
+|------------------------------|----------------|------------------|------------------|---------------------|---------|----------------|
+| **Core Behaviors**    |                |                  |                  |                     |         |                |
+| Attendance                  | [y]            | 5                | 0                | 0                   | 0.0     |                |
+| Work Habits                | [n]            | 3                | 0                | 0                   | 0.0     |                |
+| Behavior                   | [y]            | 4                | 0                | 0                   | 0.0     |                |
+| Timeliness                | [y]            | 5                | 0                | 0                   | 0.0     |                |
+| **Technical Skills** |            |                  |                  |                     |         |                |
+| Tech/Cyber Sense          | [y]            | 5                | 0                | 0                   | 0.0     |                |
+| Tech/Cyber Talk           | [n]            | 3                | 0                | 0                   | 0.0     |                |
+| Tech Growth              | [y]            | 5                | 0                | 0                   | 0.0     |                |
+| **Collaboration** |             |                  |                  |                     |         |                |
+| Advocacy                 | [y]            | 5                | 0                | 0                   | 0.0     |                |
+| Communication & Collab   | [y]            | 5                | 0                | 0                   | 0.0     |                |
+|  **Professional Skills** |            |                  |                  |                     |         |                |
+| Integrity               | [y]            | 5                | 0                | 0                   | 0.0     |                |
+| Organization          | [y]            | 5                | 0                | 0                   | 0.0     |                |
+| **TOTALS** |    | 0                | 50                | 0                   | 0.0     |                |
+|  **AVERAGE SCORE**  |                | 4.54              | 0.0              | 0.0                 | 0.0     |                |
 
-[Read Learning Habits Table](https://github.com/nighthawkcoders/portfolio_2025/issues/14) to understand how behaviors will impact grading.
+<br>
+<br>
+<br>
+<br>
 
+## Sprint 1 Key Objectives
+
+| Skill                              | Mastered (Y/N) | Rank (0-5) | Mastery Score (Pct) | Notes/Evidence                                                                 |
+|-----------------------------------|----------------|------------|----------------------|-------------------------------------------------------------------------------|
+| Laptop Verification or Cloud Workspace | []        | 0          | 0.0%                 | Document setup process, troubleshooting steps, and system configurations      |
+| VSCode Setup & Usage             | []            | 0          | 0.0%                 | Show iterative improvement from basic setup to advanced debugging workflows   |
+| VSCode Sharing and Collaboration | []            | 0          | 0.0%                 | Demonstrate progression from ideas to code using LiveShare and GitLens        |
+| Student Repository Creation      | []            | 0          | 0.0%                 | Show evolution from template fork to personalized, well-organized repository |
+| Hacks: Tools & Equipment        | [ ]            | 0          | 0.0%                 | [Link showing your learning journey, mistakes, and improvements]             |
+| Hacks: Portfolio and Blogging   | [ ]            | 0          | 0.0%                 | [Link demonstrating iterative portfolio development and problem solving]      |
+| Hacks: Theme, Style, Layout     | [ ]            | 0          | 0.0%                 | [Link showing progression to understanding and personalizing presentation]   |
+| Hacks: JavaScript Frontend Basics | [ ]          | 0          | 0.0%                 | [Link documenting learning process, new understanding, and challenges]       |
+| AI Evidence in Work            | [ ]            | 0          | 0.0%                 | Document AI prompts, responses, and how you iterated/improved/customized     |
+| Manifesto Evidence            | [ ]            | 0          | 0.0%                 | Show live review, collaborative commits, peer reviews, joint problem-solving |
+| Learning Through Mistakes    | [ ]            | 0          | 0.0%                 | Document failures, thinking errors, technical errors, debugging, rework, and iterative improvement |
+| **Total Points**            |                | 0          | 0.0%                 | Sum of Columns                                                               |
+| **Mastery Score**         |                | 0.0        | 0.0%                 | Average of Columns                                                           |
 
 

@@ -2,7 +2,7 @@
 title: JS Calculator
 comments: true
 hide: true
-layout: default
+layout: post
 type: ccc
 description: A common way to become familiar with a language is to build a calculator.  This calculator shows off button with actions.
 courses: { csse: {week: 4} }
