@@ -35,7 +35,7 @@ courses: { csse: {week: 6} }
             const BOMB_SPEED = 20;
             const BOMB_DISTANCE = 200;
             const BOMB_THROW_INTERVAL = 5000; // 5 seconds
-            canvas.width = SPRITE_WIDTH * SCALE_FACTOR * 8;
+            canvas.width = SPRITE_WIDTH * SCALE_FACTOR * 2;
             canvas.height = SPRITE_HEIGHT * SCALE_FACTOR;
             class Ninja {
                 constructor() {
