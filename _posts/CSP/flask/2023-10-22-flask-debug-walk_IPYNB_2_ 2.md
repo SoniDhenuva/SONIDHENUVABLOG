@@ -43,7 +43,7 @@ To set up the workspace for your frontend project, follow these steps:
      ```
 
 6. **Access the Web Server**:
-   - Click the loopback address (e.g., `http://127.0.0.1:4100`) displayed in the terminal to load the web server in your browser.
+   - Click the loopback address (e.g., `http://127.0.0.1:4104`) displayed in the terminal to load the web server in your browser.
 
 ## Setup Backend (flask_2025 or flocker_backend)
 
@@ -95,7 +95,7 @@ To set up the workspace for your frontend project, follow these steps:
    - After starting the server, revisit Activity Monitor or Task Manager to see the new Python processes. This demonstrates that the server is actively running.
 
 4. **Port**:
-   - The backend server typically runs on a different port than the frontend. For example, the backend might run on port `8087` while the frontend runs on port `4100`.
+   - The backend server typically runs on a different port than the frontend. For example, the backend might run on port `8087` while the frontend runs on port `4104`.
    - This distinction is crucial to avoid conflicts and ensure that requests are routed correctly between the frontend and backend.
 
 5. **Set Breakpoints in _Security**:
@@ -104,18 +104,18 @@ To set up the workspace for your frontend project, follow these steps:
 
 ## Emphasize Frontend Server
 
-1. **Show Process for `jekyll serve -H 127.0.0.1 -P 4100`**:
+1. **Show Process for `jekyll serve -H 127.0.0.1 -P 4104`**:
    - Open a terminal and navigate to the root directory of your frontend project.
    - Find the follow command process in terminal:
      ```bash
      pgrep -fl jekyll
      ```
-   - This command show: jekyll serve -H 127.0.0.1 -P 4100
+   - This command show: jekyll serve -H 127.0.0.1 -P 4104
 
 2. **Run Login in Browser**:
    - Open your web browser and navigate to the following URL to access the login page:
      ```plaintext
-     http://127.0.0.1:4100/portfolio_2025/login
+     http://127.0.0.1:4104/portfolio_2025/login
      ```
    - This URL points to the login page of your frontend application.
 

@@ -362,7 +362,7 @@ To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
       Remote Theme: Using theme jekyll/minima
                     done in 2.493 seconds.
  Auto-regeneration: enabled for '/Users/johnmortensen/vscode/portfolio_2025'
-    Server address: http://127.0.0.1:4100/portfolio_2025/
+    Server address: http://127.0.0.1:4104/portfolio_2025/
 ```
 
 #### Make workflow (local build: make, make clean, make stop, make convert)

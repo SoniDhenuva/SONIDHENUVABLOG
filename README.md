@@ -63,7 +63,7 @@ baseurl: "/portfolio_2025"
 
 ```make
 # Configuration, override port with usage: make PORT=4200
-PORT ?= 4100
+PORT ?= 4104
 REPO_NAME ?= portfolio_2025
 LOG_FILE = /tmp/jekyll$(PORT).log
 ```
@@ -132,7 +132,7 @@ Start the preview server in the terminal,
 The terminal output from `make` shows the server address. "Cmd" or "Ctl" click the http location to open the preview server in a browser. Here is an example Server address message, click on the Server address to load:...
 
   ```text
-  http://0.0.0.0:4100/portfolio_2025/
+  http://0.0.0.0:4104/portfolio_2025/
   ```
 
 ### Regeneration of web application

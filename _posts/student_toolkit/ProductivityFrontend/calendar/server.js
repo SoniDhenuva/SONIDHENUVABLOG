@@ -2,8 +2,8 @@ const cors = require('cors');
 const express = require('express');
 const app = express();
 
-// Enable CORS for localhost:4100
-app.use(cors({ origin: 'http://localhost:4100' }));
+// Enable CORS for localhost:4104
+app.use(cors({ origin: 'http://localhost:4104' }));
 
 app.get('/api/assignments/debug', (req, res) => {
     // Mock assignment data
