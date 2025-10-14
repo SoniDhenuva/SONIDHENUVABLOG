@@ -7,15 +7,6 @@ courses: {csa: {week: 7}}
 type: ccc
 ---
 
----
-title: 1.8 Documentation With Comments
-layout: post
-type: hacks
-comments: true
-courses: {csa: {week: 7}}
-type: ccc
----
-
 ## Lesson Hack 1 - Fix the Documentation
 <br>
 
