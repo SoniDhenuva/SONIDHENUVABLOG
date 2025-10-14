@@ -7,34 +7,37 @@ courses: {csa: {week: 7}}
 type: ccc
 ---
 
+---
+title: 1.8 Documentation With Comments
+layout: post
+type: hacks
+comments: true
+courses: {csa: {week: 7}}
+type: ccc
+---
+
 ## Lesson Hack 1 - Fix the Documentation
 <br>
-Task: The following code has poor documentation. Rewrite it with proper Javadoc comments including preconditions and postconditions.
 
+Task: The following code has poor documentation. Rewrite it with proper Javadoc comments including preconditions and postconditions.
 ```java
 /**
  * Calculates the sum of all positive even numbers in an array.
  * 
- * This method goes through each number in the array and adds it to the total
- * if it's both positive AND even. Pretty straightforward once you break it down!
- * 
- * @param nums the array of integers to check (can include negative, positive, odd, or even numbers)
- * @return the sum of all positive even integers found in the array
+ * @param nums the array of integers to check
+ * @return the sum of all positive even integers
  * 
  * Preconditions:
- * - nums must not be null (otherwise you'll get a NullPointerException - not fun)
- * - nums can be empty (that's totally fine, you'll just get 0 back)
+ * - nums must not be null
+ * - nums can be empty (returns 0)
  * 
  * Postconditions:
- * - The return value will be >= 0 (since we're only adding positive numbers)
- * - The original array is NOT modified (we're just reading, not changing anything)
- * - If there are no positive even numbers, returns 0
+ * - Return value >= 0
+ * - Original array unchanged
  * 
  * Examples:
- * - doSomething([1, 2, 3, 4]) returns 6 (because 2 + 4 = 6)
- * - doSomething([-2, -4, 0]) returns 0 (negatives don't count, and 0 isn't positive)
- * - doSomething([1, 3, 5]) returns 0 (all odd numbers)
- * - doSomething([]) returns 0 (empty array, nothing to add)
+ * - doSomething([1, 2, 3, 4]) returns 6
+ * - doSomething([-2, -4, 0]) returns 0
  */
 public int doSomething(int[] nums) {
     int result = 0;
@@ -51,20 +54,9 @@ public int doSomething(int[] nums) {
 <br>
 Your Mission: Add Javadoc comments to document this GradeBook class!
 
-What to include:
-
-What does this class do? (purpose)
-What are the main features? (key methods)
-How would someone use it? (example)
-Tags: @author, @version, @since ```java // TODO: Add your class-level Javadoc here! // Hint: Start with /** and end with */
-public class GradeBook { private HashMap<String, Double> assignments; private HashMap<String, Double> categoryWeights; private double extraCredit;
-
 ```java
 /**
- * GradeBook - tracks your grades and does the math so you don't have to.
- * 
- * Keeps all your assignments, weights categories (tests, homework, etc.),
- * and calculates your final grade. Super useful for "what do I need on the final?" moments.
+ * GradeBook - tracks grades and calculates weighted final grades.
  * 
  * Example:
  * <pre>
@@ -86,47 +78,36 @@ public class GradeBook {
     /**
      * Adds an assignment to the gradebook.
      * 
-     * @param category type of assignment ("Tests", "Homework", etc.)
+     * @param category type of assignment
      * @param name assignment name
-     * @param score the grade you got
-     * 
-     * Preconditions: category and name can't be null, score should be valid
-     * Postconditions: assignment is saved in the gradebook
+     * @param score grade received
      */
     public void addAssignment(String category, String name, double score) { }
 
     /**
-     * Sets the weight for a category (how much it counts toward final grade).
+     * Sets the weight for a category.
      * 
-     * @param category which category
-     * @param weight decimal between 0.0 and 1.0 (ex: 0.40 = 40%)
-     * 
-     * Preconditions: category not null, weight between 0 and 1
-     * Postconditions: category weight is set/updated
+     * @param category category name
+     * @param weight decimal 0.0-1.0 (ex: 0.40 = 40%)
      */
     public void setCategoryWeight(String category, double weight) { }
 
     /**
-     * Calculates your final grade using all assignments and weights.
+     * Calculates final grade using all assignments and weights.
      * 
-     * @return final grade as a percentage
-     * 
-     * Preconditions: should have assignments and weights set
-     * Postconditions: returns calculated grade, nothing gets changed
+     * @return final grade as percentage
      */
     public double calculateFinalGrade() { }
 
     /**
-     * Makes a report showing all your grades by category.
+     * Generates grade report by category.
      * 
-     * @return formatted string with grade breakdown
-     * 
-     * Preconditions: none
-     * Postconditions: returns report string, gradebook unchanged
+     * @return formatted grade breakdown
      */
     public String generateReport() { }
 }
 ```
+
 
 ## Homework
 <br>
