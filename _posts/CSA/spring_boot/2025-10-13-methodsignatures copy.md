@@ -199,7 +199,7 @@ public boolean enrollStudent(String studentId, String courseCode, int semester) 
 ### Part 3
 
 **1. Why is documentation more important in team projects than solo projects?**
-- In team projects, other people need to understand and use your code without asking you a million questions. Good documentation means your teammates know what your methods do, what to pass in, and what to expect back. In solo projects, you might remember what you wrote, but even then, future you will thank past you for leaving good comments when you come back to the code months later.
+In team projects, other people need to understand and use your code without asking you a million questions. Good documentation means your teammates know what your methods do, what to pass in, and what to expect back. In solo projects, you might remember what you wrote, but even then, future you will thank past you for leaving good comments when you come back to the code months later.
 
 <br>
 <br>
