@@ -1,0 +1,45 @@
+---
+title: Reflection Blog for Trimeter 1 CSA
+layout: post
+type: hacks
+comments: true
+courses: {csa: {week: 10}}
+type: ccc
+---
+
+# End of Tri 1  Blog
+
+### Compare Yourself to the Beginning of the Year
+
+- At the beginning of the year, I wasn’t really motivated because it was right after summer and I felt a little rusty with coding. But after working on some cool projects—especially ELIO, the interview bot—I started getting motivated again. Building something that actually worked and that people enjoyed really helped me get back into the flow.
+
+### Key Things from the 3 Sprints
+
+-This time, I really focused on planning before coding, which made a huge difference. I used tools like Mermaid flowcharts, storyboards, and Figma prototypes to map out ideas before writing any code. That process helped me clearly see what needed to be done, split up the work, and avoid confusion later. I realized that good planning actually makes the coding part a lot smoother and faster.
+
+### How N@tM Went
+
+-I actually really liked N@tM because I got to see people’s real reactions to our website. It was so fun watching people interact with ELIO, laugh, and have a good time. Seeing something I made bring joy and curiosity to others was really special—and honestly, that moment gave me a big motivation boost.
+
+### Next Steps for the Project
+
+- If I had more time, I’d love to make ELIO even smarter by integrating emotion and body language detection using React.js and machine learning. I’ve seen some really cool examples of this on LinkedIn, and I think it would make interviews feel more realistic and interactive—ELIO could even give feedback on the user’s posture or tone.
+
+### What I Want to Learn Next in CompSci
+
+- I want to explore more about machine learning and AI integration with web development, especially how front-end interfaces can connect with AI models in real time. I think learning about APIs, model training, and data visualization would really level up my future projects.
+
+### Analytics Review
+
+[LINK TO COMMITS](https://github.com/NoraTheTurtle/grinders/commits?author=SoniDhenuva )
+<br>
+
+<img width="820" height="421" alt="Image" src="https://github.com/user-attachments/assets/e29d92d1-6f1a-4986-b316-b37ed478b616" />
+
+<img width="959" height="553" alt="Image" src="https://github.com/user-attachments/assets/bc0bc5b3-9368-4372-98af-4b5ce0c58133" />
+
+### Something Cool I’d Like to Share
+
+- I recently got an internship at Voulay, a coupon company, where I’ll be working on API integration and AI data fetching. I’m super excited because it ties perfectly into what I’ve been learning in class and gives me a chance to apply those skills in a real-world setting!
+
+

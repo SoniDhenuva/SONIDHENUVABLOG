@@ -237,7 +237,7 @@ Adding grade: 92 points
 Adding grade: 85 points
 
 --- Soni Dhenuva's Grade Report ---
-Student Name: Soni Rodriguez
+Student Name: Soni dHENUVA
 Total Points: 360
 Assignments Completed: 4
 Current Average: 90.00
