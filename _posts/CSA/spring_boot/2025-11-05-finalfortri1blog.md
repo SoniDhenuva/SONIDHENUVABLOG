@@ -32,6 +32,10 @@ type: ccc
 -I actually really liked N@tM because I got to see people’s real reactions to our website. It was so fun watching people interact with ELIO, laugh, and have a good time. Seeing something I made bring joy and curiosity to others was really special—and honestly, that moment gave me a big motivation boost.
 
 ### Next Steps for the Project
+<br>
+
+<img width="899" height="652" alt="Image" src="https://github.com/user-attachments/assets/f64481d7-94f8-42c6-ab82-afaa3f5e026a" />
+<br>
 
 - If I had more time, I’d love to make ELIO even smarter by integrating emotion and body language detection using React.js and machine learning. I’ve seen some really cool examples of this on LinkedIn, and I think it would make interviews feel more realistic and interactive—ELIO could even give feedback on the user’s posture or tone.
 
