@@ -18,6 +18,16 @@ type: ccc
 -This time, I really focused on planning before coding, which made a huge difference. I used tools like Mermaid flowcharts, storyboards, and Figma prototypes to map out ideas before writing any code. That process helped me clearly see what needed to be done, split up the work, and avoid confusion later. I realized that good planning actually makes the coding part a lot smoother and faster.
 
 ### How N@tM Went
+<br>
+<br>
+
+<img width="836" height="615" alt="Image" src="https://github.com/user-attachments/assets/94e9fd6d-2567-41f8-9fa0-0ff067a16003" />
+
+<img width="830" height="611" alt="Image" src="https://github.com/user-attachments/assets/1bceb862-3f9b-4bcc-98a4-0275c2ba3317" />
+
+<img width="842" height="626" alt="Image" src="https://github.com/user-attachments/assets/36d16ecf-6aed-4cc6-833c-d7b6d40303ef" />
+
+<img width="846" height="595" alt="Image" src="https://github.com/user-attachments/assets/586036a8-cd43-4804-87cd-3ae90f2a7edc" />
 
 -I actually really liked N@tM because I got to see people’s real reactions to our website. It was so fun watching people interact with ELIO, laugh, and have a good time. Seeing something I made bring joy and curiosity to others was really special—and honestly, that moment gave me a big motivation boost.
 
