@@ -76,9 +76,6 @@ This issue documents the integration of a fully functional AI NPC, specialized a
 
 <video src="https://github.com/user-attachments/assets/0b9d0bab-dd85-4b78-94f4-c1f2e44cecb0" controls></video>
 
-## Analytics
-<img width="280" height="204" alt="Image" src="https://github.com/user-attachments/assets/103b4b14-1689-4f9d-ba7b-b5b4a3474741" />
-
 ## MCQ
 
 <img width="1272" height="82" alt="Image" src="https://github.com/user-attachments/assets/b407eb76-d34a-4fe6-ad29-8e680aa995a8" />
